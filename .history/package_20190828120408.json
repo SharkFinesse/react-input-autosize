@@ -54,7 +54,7 @@
     "react": "^0.14.9 || ^15.3.0 || ^16.0.0-rc || ^16.0"
   },
   "scripts": {
-    "build": "SET NODE_ENV=production & nps build",
+    "build": "NODE_ENV=production nps build",
     "build:examples": "nps examples",
     "deploy": "nps examples && gh-pages -d examples/dist",
     "lint": "eslint ./; true",
